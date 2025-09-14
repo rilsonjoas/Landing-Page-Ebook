@@ -4,57 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-    <title>E-book grátis | Sermões</title>
+    <title>Sermões Temáticos e Expositivos - E-book Gratuito</title>
+    <meta name="description" content="Baixe gratuitamente o e-book com sermões temáticos e expositivos para enriquecer suas pregações. Material de qualidade por Pastor Gilson Bezerra.">
   </head>
   <body>
-    <div class="container-externo">
-      <div class="container">
-        <div class="chamada">
-          <p id="chamada-pequena">ebook • grátis hoje</p>
-          <h1 id="chamada">
-            Sermões temáticos e expositivos para a sua pregação
-          </h1>
-          <img src="ide2.png" class="img-livro2" />
-        </div>
-        <div class="card-autor">
-          <img src="gilson.png" alt="Imagem do autor" id="img-autor" />
-          <div class="autor-detalhes">
-            <p id="autoria">AUTOR</p>
-            <p id="nome-autor">Gilson Bezerra</p>
-            <div id="credibilidade">
-              <p id="autor-credibilidade">
-                Pastor, formado em teologia pela Esteadeb.
-              </p>
+    <main class="hero-section">
+      <div class="hero-background">
+        <div class="hero-pattern"></div>
+      </div>
+      
+      <div class="container-main">
+        <div class="content-wrapper">
+          <div class="left-content">
+            <div class="badge">
+              <span class="badge-icon">📖</span>
+              <span class="badge-text">E-book • Gratuito Hoje</span>
+            </div>
+            
+            <h1 class="main-title">
+              Sermões <span class="highlight">Temáticos</span> e <span class="highlight">Expositivos</span> 
+              <span class="subtitle">para Transformar suas Pregações</span>
+            </h1>
+            
+            <div class="mobile-book-container">
+              <img src="ide2.png" alt="Capa do E-book Sermões" class="mobile-book-image" />
+            </div>
+            
+            <p class="hero-description">
+              Descubra um tesouro de sermões cuidadosamente elaborados que vão 
+              enriquecer seu ministério e impactar vidas através da Palavra de Deus.
+            </p>
+            
+            <div class="benefits">
+              <div class="benefit-item">
+                <div class="benefit-icon">✓</div>
+                <span>Sermões temáticos estruturados</span>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">✓</div>
+                <span>Exposições bíblicas profundas</span>
+              </div>
+              <div class="benefit-item">
+                <div class="benefit-icon">✓</div>
+                <span>Material pronto para uso</span>
+              </div>
+            </div>
+            
+            <div class="author-card">
+              <div class="author-image">
+                <img src="gilson.png" alt="Pastor Gilson Bezerra" id="img-autor" />
+                <div class="author-badge">Pastor</div>
+              </div>
+              <div class="author-info">
+                <p class="author-label">Autor</p>
+                <h3 class="author-name">Gilson Bezerra</h3>
+                <p class="author-credentials">
+                  Pastor há mais de 10 anos • Formado em Teologia pela Esteadeb
+                </p>
+              </div>
+            </div>
+            
+            <form class="download-form" id="downloadForm">
+              <div class="form-group">
+                <div class="input-wrapper">
+                  <input type="email" placeholder="Digite seu melhor email" required class="email-input" id="emailInput" />
+                  <div class="input-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                </div>
+                <button type="submit" class="download-btn" id="downloadBtn">
+                  <span class="btn-text">Baixar E-book Gratuito</span>
+                  <span class="btn-icon">📥</span>
+                </button>
+              </div>
+              <p class="disclaimer">🔒 Seus dados estão seguros • ⏰ Oferta por tempo limitado</p>
+            </form>
+          </div>
+          
+          <div class="right-content">
+            <div class="book-showcase">
+              <div class="book-container">
+                <img src="ide2.png" alt="Capa do E-book Sermões" class="book-image" />
+                <div class="book-glow"></div>
+              </div>
+              <div class="floating-elements">
+                <div class="float-element float-1">📖</div>
+                <div class="float-element float-2">✨</div>
+                <div class="float-element float-3">🙏</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="baixar">
-          <div class="input-container">
-            <input placeholder="Seu email" type="email" />
-            <span>
-              <svg
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                  stroke-width="2"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                ></path>
-              </svg>
-            </span>
-          </div>
-          <div id="baixar">
-            <button>Baixar ebook</button>
-            <p id="chamada-baixar">Grátis por tempo limitado</p>
-          </div>
-        </div>
       </div>
-      <img src="ide2.png" class="img-livro1" />
-    </div>
+    </main>
+    
+    <script>
+      // Funcionalidade do formulário de download
+      document.getElementById('downloadForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const emailInput = document.getElementById('emailInput');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const email = emailInput.value.trim();
+        
+        if (email) {
+          // Simula o processo de download
+          downloadBtn.innerHTML = '<span class="btn-text">Processando...</span><span class="btn-icon">⏳</span>';
+          downloadBtn.disabled = true;
+          
+          setTimeout(() => {
+            // Simula download do arquivo (você pode substituir por um link real)
+            const link = document.createElement('a');
+            link.href = '#'; // Substitua pelo link real do PDF
+            link.download = 'sermoes-tematicos-expositivos.pdf';
+            document.body.appendChild(link);
+            // link.click(); // Descomente quando tiver o arquivo real
+            document.body.removeChild(link);
+            
+            // Mostra mensagem de sucesso
+            downloadBtn.innerHTML = '<span class="btn-text">✅ Email Registrado!</span>';
+            downloadBtn.style.background = 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)';
+            
+            // Armazena o email (simples - em produção use um backend)
+            console.log('Email cadastrado:', email);
+            
+            // Reset após 3 segundos
+            setTimeout(() => {
+              downloadBtn.innerHTML = '<span class="btn-text">Baixar E-book Gratuito</span><span class="btn-icon">📥</span>';
+              downloadBtn.style.background = 'var(--gradient-primary)';
+              downloadBtn.disabled = false;
+              emailInput.value = '';
+            }, 3000);
+          }, 2000);
+        }
+      });
+      
+      // Validação em tempo real do email
+      document.getElementById('emailInput').addEventListener('input', function(e) {
+        const email = e.target.value;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+        if (email && !emailRegex.test(email)) {
+          e.target.style.borderColor = '#ef4444';
+        } else {
+          e.target.style.borderColor = 'rgba(212, 175, 55, 0.3)';
+        }
+      });
+    </script>
   </body>
 </html>
