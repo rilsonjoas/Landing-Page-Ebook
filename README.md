@@ -43,10 +43,9 @@ A aplicação será executada diretamente no seu navegador, sem necessidade de u
 
 *   `index.html`: Arquivo principal com a estrutura HTML da página.
 *   `styles.css`: Arquivo com os estilos CSS para a página.
- * `images/`: Pasta com imagens e logo utilizados na aplicação
-        * `favicon.ico`: Favicon da aplicação
-        *  `ide2.png`: Imagem de um livro
-        * `gilson.png`: Foto do autor
+*   `ide2.png`: Imagem de um livro (solta na raiz, não em `images/`)
+*   `gilson.png`: Foto do autor (solta na raiz, não em `images/`)
+*   `tag.gif`: Imagem/tag usada na página
 
 ## Funcionamento do Código HTML (`index.html`)
 
